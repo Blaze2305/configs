@@ -1,0 +1,11 @@
+# ignore git files
+.git
+.terrafile
+.terraform
+
+
+.k2/gen
+# ignore the rust target files for build
+target
+
+.jekyll-cache

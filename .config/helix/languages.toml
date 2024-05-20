@@ -1,0 +1,21 @@
+[[language]]
+name = "html"
+auto-format = false
+
+[[language]]
+name = "python"
+indent = { tab-width = 4 , unit = "\t" }
+auto-format = false
+
+[language-server.pylsp.config.pylsp.plugins.flake8]
+enabled = false
+ignore = ["E501"]
+
+[language-server.pylsp.config.pylsp.plugins.autopep8]
+enabled = false
+
+[language-server.pylsp.config.pylsp.plugins.pyflakes]
+enabled = false
+
+[language-server.pylsp.config.pylsp.plugins.pycodestyle]
+enabled = false

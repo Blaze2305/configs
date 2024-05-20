@@ -1,0 +1,157 @@
+{
+  "data/3NRRMD1f4OfM": {
+    "input": "@import url('https://fonts.googleapis.com/css2?family=Jacquard+12&family=Orbitron:wght@400..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Teko:wght@300..700&display=swap');"
+  },
+  "data/62475v-BiUQI": {
+    "category": "developerexcuses"
+  },
+  "data/_BMWaFIkrcJK": {
+    "columns": 1,
+    "linkOpenStyle": false,
+    "links": [
+      {
+        "icon": "github",
+        "name": "Github",
+        "url": "https://github.com/Blaze2305"
+      },
+      {
+        "icon": "mail",
+        "name": "Mail",
+        "url": "https://mail.google.com"
+      },
+      {
+        "icon": "calendar",
+        "name": "Calendar",
+        "url": "https://calendar.google.com"
+      }
+    ],
+    "visible": true
+  },
+  "data/default-time": {
+    "hour12": true,
+    "mode": "digital",
+    "name": "",
+    "showDate": true,
+    "showDayPeriod": true,
+    "showMinutes": true,
+    "showSeconds": false,
+    "timeZone": null
+  },
+  "data/default-unsplash": {
+    "by": "search",
+    "collections": "",
+    "featured": true,
+    "paused": false,
+    "search": "black",
+    "timeout": 86400,
+    "topics": "bo8jQKTaE0Y"
+  },
+  "data/wsQ4AobdnyuG": {
+    "latitude": 12.9719,
+    "longitude": 77.5937,
+    "name": "BLR",
+    "showDetails": false,
+    "units": "si"
+  },
+  "focus": false,
+  "widget/0iaeP6jwgTID": null,
+  "widget/3NRRMD1f4OfM": {
+    "display": {
+      "position": "middleCentre"
+    },
+    "id": "3NRRMD1f4OfM",
+    "key": "widget/css",
+    "order": 5
+  },
+  "widget/62475v-BiUQI": {
+    "display": {
+      "colour": "#ffffff",
+      "fontFamily": "",
+      "fontSize": 20,
+      "fontWeight": 300,
+      "position": "bottomCentre"
+    },
+    "id": "62475v-BiUQI",
+    "key": "widget/quote",
+    "order": 4
+  },
+  "widget/HCEUoPMxNkF2": null,
+  "widget/LV67EgleilSH": null,
+  "widget/_BMWaFIkrcJK": {
+    "display": {
+      "fontFamily": "",
+      "fontSize": 20,
+      "fontWeight": 400,
+      "position": "middleCentre"
+    },
+    "id": "_BMWaFIkrcJK",
+    "key": "widget/links",
+    "order": 3
+  },
+  "widget/default-greeting": null,
+  "widget/default-time": {
+    "display": {
+      "fontFamily": "Roboto Mono",
+      "fontSize": 20,
+      "fontWeight": 300,
+      "position": "middleCentre"
+    },
+    "id": "default-time",
+    "key": "widget/time",
+    "order": 0
+  },
+  "widget/knDLfa7g2RUu": null,
+  "widget/wsQ4AobdnyuG": {
+    "display": {
+      "fontFamily": "",
+      "fontSize": 28,
+      "position": "bottomCentre"
+    },
+    "id": "wsQ4AobdnyuG",
+    "key": "widget/weather",
+    "order": 1
+  },
+  "widget/zJC6OEPUWL2r": null,
+  "background": {
+    "id": "default-unsplash",
+    "key": "background/unsplash",
+    "display": {
+      "luminosity": -0.1,
+      "blur": 0
+    }
+  },
+  "widget/Ez7z2okVdYOY": null,
+  "widget/sy0VDUs1jxqL": {
+    "id": "sy0VDUs1jxqL",
+    "key": "widget/todo",
+    "order": 6,
+    "display": {
+      "position": "middleRight",
+      "fontFamily": "Roboto Mono",
+      "fontSize": 16,
+      "fontWeight": 300
+    }
+  },
+  "data/sy0VDUs1jxqL": {
+    "items": [],
+    "show": 5,
+    "keyBind": "T"
+  },
+  "widget/8w4yHhXV_aVb": {
+    "id": "8w4yHhXV_aVb",
+    "key": "widget/ipInfo",
+    "order": 7,
+    "display": {
+      "position": "topRight",
+      "fontSize": 30,
+      "fontFamily": "Teko",
+      "fontWeight": 100
+    }
+  },
+  "widget/-VXhjKX-pV3X": null,
+  "widget/myJxWOIB8ILh": null,
+  "widget/2YqlDUU1emnt": null,
+  "locale": "en",
+  "timeZone": null,
+  "version": 3
+}

@@ -1,0 +1,61 @@
+theme = "ayu_dark"
+# theme = "monokai"
+# theme = "dracula"
+
+[editor]
+popup-border="all"
+true-color = true
+line-number = "absolute"
+idle-timeout = 100
+cursorline = true
+color-modes = true
+auto-save = true
+bufferline = "multiple"
+soft-wrap.enable = true
+# mouse = false
+
+[editor.cursor-shape]
+insert = "underline"
+normal = "underline"
+select = "underline"
+
+[keys.normal]
+"#" = ["select_all",":pipe goimports",":w"]
+c = ["trim_selections","change_selection"]
+
+
+[keys.insert]
+k = { j = "normal_mode" }
+up = "move_line_up"
+down = "move_line_down"
+left = "move_char_left"
+right = "move_char_right"
+C-p = "signature_help"
+
+[editor.file-picker]
+hidden = false
+git-ignore = false
+
+[editor.whitespace.render]
+tab = "all"
+newline = "none"
+
+[editor.whitespace.characters]
+nbsp = "⍽"
+# tab = "→" #removed it for the new editor.indent-guides.render key
+newline = "⏎"
+
+[editor.indent-guides]
+render = true
+
+
+[editor.lsp]
+# display-inlay-hints = true
+display-messages = true
+
+
+[editor.statusline]
+left = [ "spinner","spacer","separator","spacer","spacer","mode","mode","spacer","file-name","spacer","separator","spacer","version-control"]
+center = ["mode","mode","mode","mode","mode","mode","mode","mode","mode","mode","mode","mode","mode","mode","mode","mode",]
+right = ["diagnostics", "spacer","spacer","separator","primary-selection-length","selections", "spacer","spacer","separator","spacer","spacer","position","position-percentage", "total-line-numbers","spacer","spacer","separator", "spacer","spacer","file-encoding", "file-line-ending", "file-type", "read-only-indicator"]
+separator = "│"
