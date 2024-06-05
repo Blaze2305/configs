@@ -3,7 +3,7 @@ theme = "ayu_dark"
 # theme = "dracula"
 
 [editor]
-popup-border="all"
+popup-border = "all"
 true-color = true
 line-number = "absolute"
 idle-timeout = 100
@@ -20,8 +20,8 @@ normal = "underline"
 select = "underline"
 
 [keys.normal]
-"#" = ["select_all",":pipe goimports",":w"]
-c = ["trim_selections","change_selection"]
+"#" = ["select_all", ":pipe goimports", ":w"]
+c = ["trim_selections", "change_selection"]
 
 
 [keys.insert]
@@ -55,7 +55,62 @@ display-messages = true
 
 
 [editor.statusline]
-left = [ "spinner","spacer","separator","spacer","spacer","mode","mode","spacer","file-name","spacer","separator","spacer","version-control"]
-center = ["mode","mode","mode","mode","mode","mode","mode","mode","mode","mode","mode","mode","mode","mode","mode","mode",]
-right = ["diagnostics", "spacer","spacer","separator","primary-selection-length","selections", "spacer","spacer","separator","spacer","spacer","position","position-percentage", "total-line-numbers","spacer","spacer","separator", "spacer","spacer","file-encoding", "file-line-ending", "file-type", "read-only-indicator"]
+left = [
+  "spinner",
+  "spacer",
+  "separator",
+  "spacer",
+  "spacer",
+  "mode",
+  "mode",
+  "spacer",
+  "file-name",
+  "spacer",
+  "separator",
+  "spacer",
+  "version-control",
+]
+center = [
+  "mode",
+  "mode",
+  "mode",
+  "mode",
+  "mode",
+  "mode",
+  "mode",
+  "mode",
+  "mode",
+  "mode",
+  "mode",
+  "mode",
+  "mode",
+  "mode",
+  "mode",
+  "mode",
+]
+right = [
+  "diagnostics",
+  "spacer",
+  "spacer",
+  "separator",
+  "primary-selection-length",
+  "selections",
+  "spacer",
+  "spacer",
+  "separator",
+  "spacer",
+  "spacer",
+  "position",
+  "position-percentage",
+  "total-line-numbers",
+  "spacer",
+  "spacer",
+  "separator",
+  "spacer",
+  "spacer",
+  "file-encoding",
+  "file-line-ending",
+  "file-type",
+  "read-only-indicator",
+]
 separator = "│"

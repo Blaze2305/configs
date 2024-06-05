@@ -4,18 +4,40 @@ auto-format = false
 
 [[language]]
 name = "python"
-indent = { tab-width = 4 , unit = "\t" }
+indent = { tab-width = 4, unit = "\t" }
 auto-format = false
+language-servers = ["pyright"]
+formatter = { command = "black", args = ["--quiet", "-"] }
 
-[language-server.pylsp.config.pylsp.plugins.flake8]
-enabled = false
-ignore = ["E501"]
+[[language]]
+name = "toml"
+auto-format = true
 
-[language-server.pylsp.config.pylsp.plugins.autopep8]
-enabled = false
+# [language-server.pylsp.config.pylsp.plugins.flake8]
+# enabled = false
+# ignore = ["E501"]
 
-[language-server.pylsp.config.pylsp.plugins.pyflakes]
-enabled = false
+# [language-server.pylsp.config.pylsp.plugins.autopep8]
+# enabled = false
 
-[language-server.pylsp.config.pylsp.plugins.pycodestyle]
-enabled = false
+# [language-server.pylsp.config.pylsp.plugins.pyflakes]
+# enabled = false
+
+# [language-server.pylsp.config.pylsp.plugins.pycodestyle]
+# enabled = false
+
+
+[language-server.taplo]
+config = {}
+
+[language-server.golangci-lint-lsp]
+command = "golangci-lint-langserver"
+
+[language-server.golangci-lint-lsp.config.initializationOptions]
+command = [
+  "golangci-lint",
+  "run",
+  "--out-format",
+  "json",
+  "--issues-exit-code=1",
+]
