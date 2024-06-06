@@ -2,3 +2,8 @@ inherits = "ayu_dark"
 
 "ui.linenr" = { fg = "light-gray" }
 "ui.linenr.selected" = { fg = "white", modifiers = ["italic"] }
+"ui.window" = "pane_separator"
+"ui.statusline" = { fg = "foreground", bg = "black", underline = { color = "pane_separator", style = "line" } }
+
+[palette]
+pane_separator = "#ffffff"
