@@ -2,10 +2,23 @@
 .git
 .terrafile
 .terraform
-
+.DS_Store
 
 .k2/gen
 # ignore the rust target files for build
 target
 
+# jekyll cache
 .jekyll-cache
+
+# python venv
+.venv
+
+# go delve debug builds
+__debug*
+
+# pants build system
+.pants.d/
+
+# pycache
+__pycache__

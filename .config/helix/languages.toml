@@ -5,9 +5,21 @@ auto-format = false
 [[language]]
 name = "python"
 indent = { tab-width = 4, unit = "\t" }
-auto-format = false
-language-servers = ["pyright"]
+
+roots = ["pyproject.toml", "."]
+file-types = ["py", "pyi"]
+auto-format = true
+
 formatter = { command = "black", args = ["--quiet", "-"] }
+language-servers = [
+  { name = "ruff", only-features = [
+    "format",
+    "workspace-command",
+    "code-action",
+    "diagnostics",
+  ] },
+  "pyright",
+]
 
 [[language]]
 name = "toml"
@@ -41,3 +53,30 @@ command = [
   "json",
   "--issues-exit-code=1",
 ]
+
+[language-server.pyright]
+timeout = 100
+command = "pyright-langserver"
+args = ["--stdio"]
+
+[language-server.pyright.config.python.analysis]
+autoImportCompletions = true
+autoSearchPaths = true
+diagnosticMode = "openFilesOnly"
+useLibraryCodeForTypes = true
+
+[language-server.ruff]
+timeout = 100
+command = "ruff-lsp"
+
+[[language]]
+name = "hcl"
+language-servers = ["terraform-ls"]
+auto-format = true
+formatter = { command = "teraform", args = [
+  "fmt",
+  "-recursive",
+  "&&",
+  "lintlint",
+  "-a",
+] }

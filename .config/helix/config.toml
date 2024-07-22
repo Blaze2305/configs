@@ -42,7 +42,7 @@ newline = "none"
 
 [editor.whitespace.characters]
 nbsp = "⍽"
-# tab = "→" #removed it for the new editor.indent-guides.render key
+tab = "→"     #removed it for the new editor.indent-guides.render key
 newline = "⏎"
 
 [editor.indent-guides]
@@ -71,12 +71,6 @@ left = [
   "version-control",
 ]
 center = [
-  "mode",
-  "mode",
-  "mode",
-  "mode",
-  "mode",
-  "mode",
   "mode",
   "mode",
   "mode",
