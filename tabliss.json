@@ -1,9 +1,25 @@
 {
+  "background": {
+    "display": {
+      "blur": 0,
+      "luminosity": -0.1
+    },
+    "id": "default-unsplash",
+    "key": "background/unsplash"
+  },
   "data/3NRRMD1f4OfM": {
     "input": "@import url('https://fonts.googleapis.com/css2?family=Jacquard+12&family=Orbitron:wght@400..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Teko:wght@300..700&display=swap');"
   },
   "data/62475v-BiUQI": {
     "category": "developerexcuses"
+  },
+  "data/8w4yHhXV_aVb": {
+    "city": "",
+    "country": "",
+    "displayCity": true,
+    "displayCountry": false,
+    "ip": "Fetching IP data...",
+    "refreshInterval": 5
   },
   "data/_BMWaFIkrcJK": {
     "columns": 1,
@@ -23,6 +39,56 @@
         "icon": "calendar",
         "name": "Calendar",
         "url": "https://calendar.google.com"
+      },
+      {
+        "icon": "user",
+        "name": "Rippling Dashboard",
+        "url": "https://app.rippling.com"
+      },
+      {
+        "icon": "alert-triangle",
+        "name": "Opsgenie",
+        "url": "https://rippling.app.opsgenie.com/alert/list"
+      },
+      {
+        "icon": "list",
+        "name": "Codeship JIRA",
+        "url": "https://rippling.atlassian.net/jira/software/c/projects/DEVX/boards/2096?assignee=712020%3A3d9e1510-0bbe-49e2-9833-b776bfffc443"
+      },
+      {
+        "icon": "play",
+        "name": "Buildkite",
+        "url": "https://buildkite.com/rippling"
+      },
+      {
+        "icon": "server",
+        "name": "Rippling GPT",
+        "url": "https://app.rippling.com/rippling-gpt/chat"
+      },
+      {
+        "icon": "globe",
+        "name": "Atlas",
+        "url": "https://team.atlassian.com/your-work?cloudId=969226a5-2105-49eb-a9f7-e3852660973e"
+      },
+      {
+        "icon": "book-open",
+        "name": "Rippling Confluence",
+        "url": "https://rippling.atlassian.net/wiki/spaces/AR/overview"
+      },
+      {
+        "icon": "activity",
+        "name": "Rippling Main Release Candidate Validation",
+        "url": "https://buildkite.com/rippling/rippling-main-release-candidate-validation"
+      },
+      {
+        "icon": "git-merge",
+        "name": "Rippling Main Merge Queue",
+        "url": "https://buildkite.com/rippling/rippling-main-pr-merge-queue"
+      },
+      {
+        "icon": "server",
+        "name": "Datadog Dashboards",
+        "url": "https://app.datadoghq.com/dashboard/lists"
       }
     ],
     "visible": true
@@ -42,9 +108,14 @@
     "collections": "",
     "featured": true,
     "paused": false,
-    "search": "black",
+    "search": "Japan Ocean",
     "timeout": 86400,
     "topics": "bo8jQKTaE0Y"
+  },
+  "data/sy0VDUs1jxqL": {
+    "items": [],
+    "keyBind": "T",
+    "show": 5
   },
   "data/wsQ4AobdnyuG": {
     "latitude": 12.9719,
@@ -54,9 +125,14 @@
     "units": "si"
   },
   "focus": false,
+  "locale": "en",
+  "timeZone": null,
+  "widget/-VXhjKX-pV3X": null,
   "widget/0iaeP6jwgTID": null,
+  "widget/2YqlDUU1emnt": null,
   "widget/3NRRMD1f4OfM": {
     "display": {
+      "colour": "#ffffff",
       "position": "middleCentre"
     },
     "id": "3NRRMD1f4OfM",
@@ -75,10 +151,23 @@
     "key": "widget/quote",
     "order": 4
   },
+  "widget/8w4yHhXV_aVb": {
+    "display": {
+      "fontFamily": "Teko",
+      "fontSize": 30,
+      "fontWeight": 100,
+      "position": "topRight"
+    },
+    "id": "8w4yHhXV_aVb",
+    "key": "widget/ipInfo",
+    "order": 7
+  },
+  "widget/Ez7z2okVdYOY": null,
   "widget/HCEUoPMxNkF2": null,
   "widget/LV67EgleilSH": null,
   "widget/_BMWaFIkrcJK": {
     "display": {
+      "colour": "#ffffff",
       "fontFamily": "",
       "fontSize": 20,
       "fontWeight": 400,
@@ -101,6 +190,18 @@
     "order": 0
   },
   "widget/knDLfa7g2RUu": null,
+  "widget/myJxWOIB8ILh": null,
+  "widget/sy0VDUs1jxqL": {
+    "display": {
+      "fontFamily": "Roboto Mono",
+      "fontSize": 16,
+      "fontWeight": 300,
+      "position": "middleRight"
+    },
+    "id": "sy0VDUs1jxqL",
+    "key": "widget/todo",
+    "order": 6
+  },
   "widget/wsQ4AobdnyuG": {
     "display": {
       "fontFamily": "",
@@ -112,46 +213,5 @@
     "order": 1
   },
   "widget/zJC6OEPUWL2r": null,
-  "background": {
-    "id": "default-unsplash",
-    "key": "background/unsplash",
-    "display": {
-      "luminosity": -0.1,
-      "blur": 0
-    }
-  },
-  "widget/Ez7z2okVdYOY": null,
-  "widget/sy0VDUs1jxqL": {
-    "id": "sy0VDUs1jxqL",
-    "key": "widget/todo",
-    "order": 6,
-    "display": {
-      "position": "middleRight",
-      "fontFamily": "Roboto Mono",
-      "fontSize": 16,
-      "fontWeight": 300
-    }
-  },
-  "data/sy0VDUs1jxqL": {
-    "items": [],
-    "show": 5,
-    "keyBind": "T"
-  },
-  "widget/8w4yHhXV_aVb": {
-    "id": "8w4yHhXV_aVb",
-    "key": "widget/ipInfo",
-    "order": 7,
-    "display": {
-      "position": "topRight",
-      "fontSize": 30,
-      "fontFamily": "Teko",
-      "fontWeight": 100
-    }
-  },
-  "widget/-VXhjKX-pV3X": null,
-  "widget/myJxWOIB8ILh": null,
-  "widget/2YqlDUU1emnt": null,
-  "locale": "en",
-  "timeZone": null,
   "version": 3
 }

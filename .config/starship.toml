@@ -1,7 +1,7 @@
 # Config schema, useful for editor completions.
 "$schema" = 'https://starship.rs/config-schema.json'
 
-command_timeout = 1000
+command_timeout = 2000
 
 [aws]
 format = '\[[$symbol($profile)(\($region\))(\[$duration\])]($style)\]'
@@ -59,6 +59,10 @@ format = '\[[$symbol$branch]($style)\]'
 
 [gcloud]
 format = '\[[$symbol$account(@$domain)(\($region\))]($style)\]'
+
+[git_commit]
+only_detached = false
+format = '\[[$symbol$hash]($style)\]'
 
 [git_branch]
 format = '\[[$symbol$branch]($style)\]'

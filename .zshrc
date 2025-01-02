@@ -7,6 +7,7 @@ alias cleanup='git branch | grep -vE "(main|master)" | xargs -I{} git branch -D 
 # adding this alias because a lot of tools open VSCode and I want to redirect that to helix
 alias code="hx"
 alias tffmt='terraform fmt -recursive && linelint -a'
+alias tf="terraform"
 
 bindkey "^[[A" history-beginning-search-backward
 bindkey "^[[B" history-beginning-search-forward

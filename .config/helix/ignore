@@ -22,3 +22,5 @@ __debug*
 
 # pycache
 __pycache__
+.pytest_cache
+
